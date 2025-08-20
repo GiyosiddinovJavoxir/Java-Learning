@@ -1,0 +1,39 @@
+Masala: Kutubxona boshqaruv tizimi
+Talablar:
+Book nomli klass tuzilsin:
+
+xususiyatlari: id, title, author, year, available
+(boolean – kitob ijaraga berilganmi yoki yo‘q).
+
+metodlari: kitob haqida ma’lumot chiqaruvchi
+toString() va borrowBook(), returnBook() metodlari bo‘lsin.
+
+Member nomli klass tuzilsin:
+
+xususiyatlari: id, name, borrowedBooks (kitoblar ro‘yxati).
+
+metodlari: borrow(Book book), return(Book book).
+
+Library nomli klass tuzilsin:
+
+xususiyatlari: books va members ro‘yxati.
+
+metodlari:
+
+addBook(Book book),
+
+addMember(Member member),
+
+searchByTitle(String title),
+
+listBorrowedBooks() – hozir kimda qaysi kitoblar borligini ko‘rsatish.
+
+Qo‘shimcha shartlar:
+
+Agar Member bitta vaqtda 3 tadan ko‘p kitob olsa, xatolik chiqsin.
+
+Agar kitob allaqachon boshqa odamda bo‘lsa, uni yana ijaraga olish mumkin emas.
+
+searchByTitle qisman qidirishni amalga oshirishi kerak (masalan, "Java" deb qidirilsa, Java OOP, Effective Java kitoblarini ham topishi kerak).
+
+Kutubxona holatini (barcha kitoblar va kimda qaysi kitob borligini) chiqaruvchi metod yozilsin.
